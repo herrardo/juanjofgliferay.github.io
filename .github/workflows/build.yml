@@ -27,7 +27,6 @@ jobs:
             cd "$dir"
             npm install
             npm run build
-            npm run preview
             cd -
           fi
         done
